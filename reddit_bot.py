@@ -131,6 +131,7 @@ def get_saved_comments():
 
 
 r = bot_login()
+username_Used = ""
 subreddit1 = r.subreddit('') #kendi subreddit sayfanın urlsi gelecek
 GonderilenPostIdleri = get_saved_comments()
 
